@@ -1,0 +1,18 @@
+[
+  {
+    "Name": "Miras",
+    "Description": "Best res",
+    "Start": "10:00",
+    "End": "23:00",
+    "Image": "https://miro.medium.com/max/700/0*dkW9pVK3_mZ4mEKG",
+    "ID": "0001"
+  },
+  {
+    "Name": "Didar",
+    "Description": "Best res (almost)",
+    "Start": "11:00",
+    "End": "21:00",
+    "Image": "https://miro.medium.com/max/700/0*dkW9pVK3_mZ4mEKG",
+    "ID": "0002"
+  }
+]

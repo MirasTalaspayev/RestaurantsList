@@ -1,0 +1,22 @@
+﻿@page
+@model RestaurantsList.Pages.RestaurantsListModel
+@{
+    ViewData["Title"] = "Restaurants";
+}
+
+<div>Here is the List</div>
+<div class="card-columns">
+    @foreach (var restaurant in Model.restaurants)
+    {
+        <div class="card">
+            <div class="card-img" style="background-image: url('@restaurant.Image');"></div>
+            <div class="card-body">
+                <h5 class="card-title">@restaurant.Name</h5>
+                <p>
+                    Time: @restaurant.StartTime - @restaurant.EndTime
+                    @restaurant.Description.
+                </p>
+            </div>
+        </div>
+    }
+</div>
